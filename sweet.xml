@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="sweet-sandbox" fetch="https://github.com/sweet-sandbox"/>
+<remote name="hdrd13-gitlab" fetch="https://gitlab.com/hdrd13"/>
+ <!-- Device Tree -->
+  <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="sweet-sandbox" revision="fourteen"/>
+  <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" remote="sweet-sandbox" revision="fourteen"/>
+
+ <!-- Kernel -->
+  <project path="kernel/xiaomi/sm6150" name="kernel_xiaomi_sm6150" remote="sweet-sandbox" revision="14"/>
+
+ <!-- Vendor Tree -->
+  <project path="vendor/xiaomi/sweet" name="proprietary_vendor_xiaomi_sweet" remote="sweet-sandbox" revision="fourteen"/>
+  <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="sweet-sandbox" revision="fourteen"/>
+
+ <!-- MIUI Camera -->
+  <project path="vendor/xiaomi/sweet-miuicamera" name="vendor_xiaomi_sweet-miuicamera" remote="hdrd13-gitlab" revision="14"/>
+
+</manifest>
